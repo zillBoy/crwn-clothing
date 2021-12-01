@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import MenuItem from '../MenuItem/MenuItem.component'
 import './Directory.styles.scss'
-import { sections as menuSections } from '../../utils/data'
+import { sections as sectionData } from '../../utils/data'
 
 const Directory = () => {
     
-    const [sections, setSections] = useState(menuSections)
+    const [sections, setSections] = useState(sectionData)
     
     return (
         <div className='directory-menu'>
